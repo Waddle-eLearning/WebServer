@@ -1,0 +1,48 @@
+<md-card class="centeredLogin">
+    <md-tab-group>
+        <md-tab label="Login">
+
+            <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+                <p>
+                    <md-input-container class="full-width">
+                        <input mdInput placeholder="username" value="Sushi" formControlName="username">
+                    </md-input-container>
+
+                </p>
+                <p>
+                    <md-input-container class="full-width">
+                        <input mdInput placeholder="password" type="password" value="Sushi" formControlName="password">
+                    </md-input-container>
+
+                </p>
+                <md-card-actions>
+                    <button md-raised-button type="submit" [disabled]="!loginForm.valid">Login</button>
+                </md-card-actions>
+            </form>
+        </md-tab>
+
+        <md-tab label="Register">
+
+            <form [formGroup]="registerForm" (ngSubmit)="onRegister()">
+                <p>
+                    <md-input-container class="full-width">
+                        <input mdInput placeholder="username" value="Sushi" formControlName="username">
+                    </md-input-container>
+
+                </p>
+                <p>
+                    <md-input-container class="full-width">
+                        <input mdInput placeholder="password" type="password" name="password" value="Sushi" formControlName="password">
+                    </md-input-container>
+
+                </p>
+
+                <md-card-actions>
+                    <button md-raised-button type="submit" [disabled]="!registerForm.valid">Register</button>
+                </md-card-actions>
+            </form>
+
+        </md-tab>
+    </md-tab-group>
+</md-card>
+

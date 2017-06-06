@@ -1,0 +1,10 @@
+.full-width {
+    width: 100%;
+}
+
+.centeredLogin {
+    max-width: 350px;
+    left: 0;
+    right: 0;
+    margin: 50px auto auto;
+}

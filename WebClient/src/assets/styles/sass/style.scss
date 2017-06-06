@@ -1,0 +1,38 @@
+/* 1. Reset
+   ========================================================================== */
+
+
+body{
+  margin: 0;
+}
+
+
+
+/* 2. General
+   ========================================================================== */
+
+.container {
+  width: calc(100%- 20px);
+  height: calc((100vh - 64px - 20px));
+  //max-width: none;
+  //.section {
+  //  width: 100%;
+  //}
+
+  padding: 10px;
+}
+
+md-card {
+  margin-top: 10px;
+}
+
+.md-card{
+  padding: 0;
+}
+
+.mat-list-item .mat-list-item-content {
+  padding-top: 0px;
+  padding-right: 16px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}

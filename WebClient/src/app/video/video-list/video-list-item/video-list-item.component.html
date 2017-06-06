@@ -1,0 +1,13 @@
+<md-list-item>
+  <md-icon md-list-icon>
+    <i class="material-icons">video_label</i>
+  </md-icon>
+  <a  [routerLink]="['/videos/' + video.id]"  class="col-1-4">
+    <h4 md-line>
+      {{video.name}}
+    </h4>
+    <h5 md-line>
+      {{video.description}}
+    </h5>
+  </a>
+</md-list-item>

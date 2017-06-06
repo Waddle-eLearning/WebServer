@@ -1,0 +1,9 @@
+Packages
+.build
+xcuserdata
+*.xcodeproj
+Config/secrets
+.DS_Store
+public/upload/*
+public/video/*
+public/*

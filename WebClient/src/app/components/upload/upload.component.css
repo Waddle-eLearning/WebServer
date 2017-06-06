@@ -1,0 +1,19 @@
+md-icon {
+    width: 200px;
+    height: 200px;
+    font-size: 200px;
+    color: #cccccc;
+}
+
+.dropzone {
+    height: 300px;
+    border: 5px dotted #ccc;
+}
+
+.dropzone .dropzone_content {
+    margin: 10px; text-align: center
+}
+
+.is_draged {
+    background-color: #eee;
+}
